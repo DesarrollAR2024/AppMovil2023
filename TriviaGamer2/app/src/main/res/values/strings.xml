@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TriviaGamer</string>
+    <string name="Text_home">ELIGE TU MODO DE JUEGO</string>
+    <string name="text_logo">TRIVIA GAMER</string>
+    <string name="btn_1">Tutorial</string>
+    <string name="btn_2">Facil</string>
+    <string name="btn_3">Intermedio</string>
+    <string name="btn_4">Dificil</string>
+    <string name="text_hel">Preguntas Frecuentes</string>
+    <string name="text_bienvenida">Bienvenido a TRIVIA GAMER</string>
+    <string name="btn_login">Iniciar Sesion</string>
+    <string name="btn_registro">Registrate</string>
+
+</resources>
