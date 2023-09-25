@@ -6,6 +6,6 @@
     android:layout_height="match_parent"
     android:background="@color/violeta"
 
-    tools:context=".Registro">
+    tools:context=".Resultado_correcto">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
