@@ -9,6 +9,6 @@ public class Resultado_correcto extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_resultado_correcto);
+        setContentView(R.layout.activity_formulario);
     }
 }
