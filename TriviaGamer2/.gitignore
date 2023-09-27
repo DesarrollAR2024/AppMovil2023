@@ -10,6 +10,7 @@
 .DS_Store
 /build
 /captures
+/TriviaGamer2/gradle/wrapper/dists/gradle-7.5.1-bin/7jzzequgds1hbszbhq3npc5ng/gradle-7.5.1-bin.zip
 .externalNativeBuild
 .cxx
 local.properties
