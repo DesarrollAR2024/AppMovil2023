@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TriviaGamer"
         tools:targetApi="31">
         <activity
+            android:name=".terminosycondiciones2"
+            android:exported="false" />
+        <activity
             android:name=".terminosycondi"
             android:exported="false" />
         <activity
