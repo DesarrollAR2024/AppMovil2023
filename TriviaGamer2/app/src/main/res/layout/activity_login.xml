@@ -102,7 +102,7 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/buttningresar"
         android:layout_width="216dp"
         android:layout_height="49dp"
         android:layout_marginTop="25dp"
@@ -117,7 +117,7 @@
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="104dp"
         android:text="No estas registrado? Crear tu cuenta AQUÍ!"
         android:textColor="@color/white"
         android:textSize="15sp"
@@ -126,5 +126,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.572"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="42dp"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <Button
+        android:id="@+id/buttonregistros"
+        android:layout_width="140dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="652dp"
+        android:text="REGISTRATE"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
