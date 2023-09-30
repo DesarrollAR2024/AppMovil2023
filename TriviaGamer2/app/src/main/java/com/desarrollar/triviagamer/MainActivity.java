@@ -10,11 +10,9 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button btniniciarsesion;
-
+    Button btnregistro;
 
     // declare una variable indicando el tipo de control
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,10 +20,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btniniciarsesion = findViewById(R.id.butn_iniciarsesionm);
+        btnregistro = findViewById(R.id.butn_registrom);
         btniniciarsesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this , login.class);
+                startActivity(intent);
+            }
+        });
+        btnregistro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this , Registro.class);
                 startActivity(intent);
             }
         });
