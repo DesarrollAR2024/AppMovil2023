@@ -1,6 +1,9 @@
 package com.desarrollar.triviagamer;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class puntaje extends Activity {
+import android.os.Bundle;
+
+public class puntaje extends AppCompatActivity {
+
 }
