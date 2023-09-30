@@ -54,12 +54,14 @@
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="205dp"
         android:layout_height="174dp"
+        android:layout_marginTop="312dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
-        app:lottie_imageAssetsFolder="assets"
         app:lottie_fileName="checkverde.json"
+        app:lottie_imageAssetsFolder="assets"
         app:lottie_loop="true"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="264dp"
         tools:ignore="MissingConstraints">
 
     </com.airbnb.lottie.LottieAnimationView>
