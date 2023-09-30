@@ -16,6 +16,8 @@ public class Home extends AppCompatActivity {
 
     ImageView perfil;
 
+    ImageView puntaje;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +26,7 @@ public class Home extends AppCompatActivity {
         btnfacil = findViewById(R.id.buttonfacil);
         help= findViewById(R.id.imagenhelp);
         perfil = findViewById(R.id.imagenavatar);
+        puntaje = findViewById(R.id.imagepodio);
         btnfacil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,6 +46,14 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Home.this , Perfil.class);
+                startActivity(intent);
+            }
+        });
+
+        puntaje.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Home.this, puntaje.class);
                 startActivity(intent);
             }
         });
