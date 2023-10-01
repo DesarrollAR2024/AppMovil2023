@@ -12,7 +12,10 @@ public class ayuda extends AppCompatActivity {
 
  Button btnpf;
 
- Button btntyc;
+
+    Button btncontacto;
+
+    Button btntyc;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +35,15 @@ public class ayuda extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(ayuda.this, Preguntas_Frecuentes.class);
+                startActivity(intent);
+            }
+        });
+
+        btncontacto= findViewById(R.id.buttoncontacto);
+        btncontacto.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ayuda.this, Contacto.class);
                 startActivity(intent);
             }
         });
