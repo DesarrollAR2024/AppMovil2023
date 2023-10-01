@@ -11,6 +11,8 @@ public class terminosycondiciones2 extends AppCompatActivity {
 
     Button btnvolvertyc1;
 
+    Button btnaceptartyc;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +23,15 @@ public class terminosycondiciones2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(terminosycondiciones2.this , terminosycondi.class);
+                startActivity(intent);
+            }
+        });
+
+        btnaceptartyc= findViewById(R.id.buttnacepto);
+        btnaceptartyc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(terminosycondiciones2.this, Home.class);
                 startActivity(intent);
             }
         });
