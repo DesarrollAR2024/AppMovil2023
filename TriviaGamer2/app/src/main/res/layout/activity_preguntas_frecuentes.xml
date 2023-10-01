@@ -6,5 +6,108 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondo_app"
 
-    tools:context=".Preguntas_Frecuentes"/>
+    tools:context=".Preguntas_Frecuentes">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="157dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="36dp"
+        android:text="PREGUNTAS FRECUENTES"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="286dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="48dp"
+        android:text="¿Cómo puedo registrarme en la aplicación?"
+        android:textAlignment="center"
+        android:textColor="@color/verde"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="283dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="12dp"
+        android:text="Para registrarte en nuestra aplicación, simplemente selecciona la opción Registrarse en la pantalla de inicio. Luego, sigue las instrucciones  para completar el proceso de registro . ¡ Es rápido y sencillo!"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="¿Necesito registrarme para jugar las trivias?"
+        android:textColor="@color/verde"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="277dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:text="Sí, debes estar registrado y haber iniciado sesión para acceder a nuestras trivias."
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="295dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:text="¿Cómo puedo mejorar mi ranking en la aplicaicón"
+        android:textAlignment="center"
+        android:textColor="@color/verde"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="292dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="8dp"
+        android:text="Tu ranking en la aplicación se basa en tus puntuaciones en las trivias. Juega con regularidad, responde correctamente preguntas y gana monedas para ascender en el ranking"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="184dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="92dp"
+        android:text="Volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
 
