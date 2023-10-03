@@ -9,21 +9,35 @@ import android.widget.Button;
 
 public class terminosycondi extends AppCompatActivity {
 
-    Button btnsiguiente;
+    Button btnvolver;
+
+    Button btnaceptar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_terminosycondi);
 
-        btnsiguiente= findViewById(R.id.buttnsiguientetyc);
-        btnsiguiente.setOnClickListener(new View.OnClickListener(){
+        btnvolver = findViewById(R.id.btnvolvertyc1);
+
+        btnvolver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(terminosycondi.this, terminosycondiciones2.class);
+                Intent intent = new Intent(terminosycondi.this , ayuda.class);
                 startActivity(intent);
             }
         });
+
+        btnaceptar= findViewById(R.id.btnaceptartyc);
+        btnaceptar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(terminosycondi.this, Home.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 
