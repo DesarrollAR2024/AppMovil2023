@@ -4,119 +4,144 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_app"
+    android:background="@color/violeta"
     tools:context=".Home">
 
+
+    <Button
+        android:id="@+id/buttonfacil2"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#ec0d84"
+        android:text="@string/btn_2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="FÁCIL" />
+
+    <Button
+        android:id="@+id/buttondificil3"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#ec0d84"
+        android:text="@string/btn_4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonfacil"
+        tools:text="DIFÍCIL" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="260dp"
         android:text="@string/Text_home"
         android:textColor="@color/white"
-        android:textSize="23sp"
+        android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageViewlogo"
-        android:layout_width="269dp"
-        android:layout_height="84dp"
-        android:layout_marginTop="36dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
-
-    <ImageView
-        android:id="@+id/imagenhelp"
-        android:layout_width="44dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.956"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/help" />
-
-    <ImageView
-        android:id="@+id/imagenavatar"
-        android:layout_width="59dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/avatar" />
-
     <Button
         android:id="@+id/buttontuto"
         android:layout_width="150dp"
         android:layout_height="75dp"
-        android:layout_marginTop="268dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="636dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#40f2fe"
         android:text="@string/btn_1"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="TUTORIAL" />
 
     <Button
         android:id="@+id/buttonfacil"
         android:layout_width="150dp"
         android:layout_height="75dp"
-        android:layout_marginTop="268dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#ec0d84"
         android:text="@string/btn_2"
+        android:textSize="17sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.735"
-        app:layout_constraintStart_toEndOf="@+id/buttontuto"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/buttonintermedio"
-        android:layout_width="150dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="116dp"
-        android:text="@string/btn_3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttontuto" />
-
-    <Button
-        android:id="@+id/buttondificil"
-        android:layout_width="150dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="116dp"
-        android:text="@string/btn_4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.735"
-        app:layout_constraintStart_toEndOf="@+id/buttonintermedio"
-        app:layout_constraintTop_toBottomOf="@+id/buttonfacil" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="INTERMEDIO" />
 
     <ImageView
-        android:id="@+id/imagepodio"
-        android:layout_width="50dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="676dp"
+        android:id="@+id/imageView8"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.196"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/podio" />
+        app:srcCompat="@drawable/trivia_gamer_logo" />
 
-    <ImageButton
-        android:id="@+id/imagenoti"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="676dp"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="349dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avatar_mujer" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/notificacion" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/podio"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="805dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/ayuda" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
