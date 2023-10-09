@@ -31,10 +31,13 @@
     <string name="puntaje_adicion">+1</string>
     <string name="boton_respuesta_correcta">Siguiente</string>
     <!--RESULTADO INCORRECTO-->
-    <string name="respuesta_incorrecta_1">RESPUESTA</string>
-    <string name="respuesta_incorrecta_2">INCORRECTA</string>
-    <string name="puntaje_resta">-1</string>
+    <string name="titulo_respuesta_incorrecta">RESPUESTA</string>
+
+
+
     <string name="boton_respuesta_incorrecta">" Siguiente "</string>
+    <string name="puntaje_resultado_incorrecto">-1</string>
+    <string name="titulo_respuesta_incorrecta2">INCORRECTA</string>
 
 
 </resources>
