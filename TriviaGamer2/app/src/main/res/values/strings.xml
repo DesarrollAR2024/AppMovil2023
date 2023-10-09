@@ -31,9 +31,10 @@
     <string name="puntaje_adicion">+1</string>
     <string name="boton_respuesta_correcta">Siguiente</string>
     <!--RESULTADO INCORRECTO-->
-    <string name="respuesta_incorrecta_1">RESPUESTA</string>
-    <string name="respuesta_incorrecta_2">INCORRECTA</string>
-    <string name="puntaje_resta">-1</string>
+    <string name="titulo_respuesta_incorrecta">RESPUESTA</string>
+
+
+
     <string name="boton_respuesta_incorrecta">" Siguiente "</string>
     <string name="_2_uso_de_la_aplicacion">2.Uso de la Aplicacion</string>
     <string name="al_acceder_y_utilizar_la_aplicaci_n_web_de_trivia_gamemate_el_usuario_acepta_cumplir_y_estar_sujeto_a_estos_t_rminos_y_condiciones_de_uso_si_el_usuario_no_est_de_acuerdo_con_alguno_de_los_t_rminos_aqu_establecidos_se_le_solicita_que_no_utilice_la_aplicaci_n">Al acceder y utilizar la aplicación web de trivia (GameMate), el usuario acepta cumplir y estar sujeto a estos Términos y Condiciones de uso. Si el usuario no está de acuerdo con alguno de los términos aquí establecidos, se le solicita que no utilice la aplicación.</string>
@@ -64,6 +65,10 @@
     <string name="estos_t_rminos_y_condiciones_se_regir_n_e_interpretar_n_de_acuerdo_con_las_leyes_de_argentina_y_cualquier_disputa_que_surja_en_relaci_n_con_estos_t_rminos_estar_sujeta_a_la_jurisdicci_n_exclusiva_de_los_tribunales_de_argentina">Estos términos y condiciones se regirán e interpretarán de acuerdo con las leyes de Argentina y cualquier disputa que surja en relación con estos términos estará sujeta a la jurisdicción exclusiva de los tribunales de argentina</string>
     <string name="si_tienes_alguna_pregunta_o_comentario_sobre_estos_t_rminos_y_condiciones_puedes_ponerte_en_contacto_con_nosotros_a_trav_s_de_gamemate_gmail_com">Si tienes alguna pregunta o comentario sobre estos términos y condiciones puedes ponerte en contacto con nosotros a través de gamemate@gmail.com</string>
     <string name="gamemate_se_reserva_el_derecho_de_suspender_o_cancelar_la_cuenta_de_cualquier_usuario_en_caso_de_incumplimiento_de_estos_t_rminos_y_condiciones">GameMate se reserva el derecho de suspender o cancelar la cuenta de cualquier usuario en caso de incumplimiento de estos términos y condiciones</string>
+
+    <string name="puntaje_resultado_incorrecto">-1</string>
+    <string name="titulo_respuesta_incorrecta2">INCORRECTA</string>
+
 
 
 </resources>
