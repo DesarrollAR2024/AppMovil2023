@@ -130,9 +130,15 @@
         android:id="@+id/imageView10"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        app:srcCompat="@drawable/podio"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="805dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="507dp"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/podio" />
 
     <ImageView
         android:id="@+id/imageView11"
