@@ -13,7 +13,7 @@
         android:layout_width="150dp"
         android:layout_height="75dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="336dp"
+        android:layout_marginTop="316dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="#ec0d84"
         android:text="@string/btn_2"
@@ -30,7 +30,7 @@
         android:layout_width="150dp"
         android:layout_height="75dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="#ec0d84"
         android:text="@string/btn_4"
@@ -60,7 +60,7 @@
         android:layout_width="150dp"
         android:layout_height="75dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="636dp"
+        android:layout_marginTop="580dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="#40f2fe"
         android:text="@string/btn_1"
@@ -77,7 +77,7 @@
         android:layout_width="150dp"
         android:layout_height="75dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="428dp"
+        android:layout_marginTop="404dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="#ec0d84"
         android:text="@string/btn_2"
@@ -99,8 +99,10 @@
         android:layout_marginBottom="18dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/trivia_gamer_logo" />
 
     <ImageView
@@ -126,19 +128,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/notificacion" />
 
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="507dp"
-        android:layout_marginEnd="277dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView11"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/podio" />
+
 
     <ImageView
         android:id="@+id/imageView11"
@@ -149,5 +139,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/ayuda" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="409dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/menu_navegacion" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
