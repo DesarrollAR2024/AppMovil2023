@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btniniciarsesion = findViewById(R.id.butn_iniciarsesionm);
-        btnregistro = findViewById(R.id.butn_registrom);
+        btnregistro = findViewById(R.id.butn_iniciarsesionm2);
         btniniciarsesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

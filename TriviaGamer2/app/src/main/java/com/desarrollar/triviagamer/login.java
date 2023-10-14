@@ -6,12 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class login extends AppCompatActivity {
 
     Button btnlogin;
-    ImageButton backButton;
+    ImageView backButton;
 
     Button btnregistrate;
     @Override
@@ -20,7 +20,7 @@ public class login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         btnlogin = findViewById(R.id.buttningresar);
-        backButton = findViewById(R.id.backButton);
+        backButton = findViewById(R.id.backmain);
         btnregistrate= findViewById(R.id.buttonregistros);
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
