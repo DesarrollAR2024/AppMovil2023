@@ -34,12 +34,11 @@
     <string name="titulo_respuesta_incorrecta">RESPUESTA</string>
 
 
-
     <string name="boton_respuesta_incorrecta">" Siguiente "</string>
     <string name="puntaje_resultado_incorrecto">-1</string>
     <string name="titulo_respuesta_incorrecta2">INCORRECTA</string>
 
-   <!-- PREGUNTAS-->
+    <!-- PREGUNTAS-->
     <string name="preguntavista">Aca va la pregunta</string>
     <string name="opcion1">opcion1</string>
     <string name="opcion2">opcion2</string>
