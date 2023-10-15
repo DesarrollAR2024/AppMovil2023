@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.desarrollar.triviagamer"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.desarrollar.triviagamer"
@@ -22,6 +22,10 @@ android {
         release {
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+        }
+
+        buildFeatures{
+            viewBinding = true
         }
     }
 
