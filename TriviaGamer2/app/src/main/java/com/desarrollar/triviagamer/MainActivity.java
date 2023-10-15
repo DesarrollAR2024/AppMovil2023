@@ -24,14 +24,14 @@ public class MainActivity extends AppCompatActivity {
         btniniciarsesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this , login.class);
+                Intent intent = new Intent(MainActivity.this , LoginActivity.class);
                 startActivity(intent);
             }
         });
         btnregistro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this , Registro.class);
+                Intent intent = new Intent(MainActivity.this , SignupActivity.class);
                 startActivity(intent);
             }
         });
