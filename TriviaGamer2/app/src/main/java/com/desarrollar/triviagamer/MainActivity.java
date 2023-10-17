@@ -20,18 +20,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btniniciarsesion = findViewById(R.id.butn_iniciarsesionm);
-        btnregistro = findViewById(R.id.butn_registrom);
+        btnregistro = findViewById(R.id.butn_iniciarsesionm2);
         btniniciarsesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this , login.class);
+                Intent intent = new Intent(MainActivity.this , LoginActivity.class);
                 startActivity(intent);
             }
         });
         btnregistro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this , Registro.class);
+                Intent intent = new Intent(MainActivity.this , SignupActivity.class);
                 startActivity(intent);
             }
         });
