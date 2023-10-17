@@ -36,7 +36,6 @@
 
 
     <string name="boton_respuesta_incorrecta">" Siguiente "</string>
-    <!--HEAD-->
     <string name="_2_uso_de_la_aplicacion">2.Uso de la Aplicacion</string>
     <string name="al_acceder_y_utilizar_la_aplicaci_n_web_de_trivia_gamemate_el_usuario_acepta_cumplir_y_estar_sujeto_a_estos_t_rminos_y_condiciones_de_uso_si_el_usuario_no_est_de_acuerdo_con_alguno_de_los_t_rminos_aqu_establecidos_se_le_solicita_que_no_utilice_la_aplicaci_n">Al acceder y utilizar la aplicación web de trivia (GameMate), el usuario acepta cumplir y estar sujeto a estos Términos y Condiciones de uso. Si el usuario no está de acuerdo con alguno de los términos aquí establecidos, se le solicita que no utilice la aplicación.</string>
     <string name="_1_aceptaci_n_de_los_t_rminos_y_condiciones">1.Aceptación de los términos y condiciones</string>
