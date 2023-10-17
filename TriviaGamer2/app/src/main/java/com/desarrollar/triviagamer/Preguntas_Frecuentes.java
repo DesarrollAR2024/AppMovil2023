@@ -16,7 +16,7 @@ public class Preguntas_Frecuentes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_preguntas_frecuentes);
 
-        btnvolver= findViewById(R.id.button);
+        btnvolver= findViewById(R.id.buttonvolverfaq);
         btnvolver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
