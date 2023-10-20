@@ -11,7 +11,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Home extends AppCompatActivity {
 
-    Button btnfacil;
+    Button btnfacil  , btnintermedio , btndificil , btntuto;
 
     BottomNavigationView bottomNavigationView;
 
@@ -21,8 +21,10 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        btnfacil = findViewById(R.id.buttonfacil);
-
+        btnfacil = findViewById(R.id.buttonfacil2);
+        btnintermedio = findViewById(R.id.buttonintermedio);
+        btndificil = findViewById(R.id.buttondificil3);
+        btntuto = findViewById(R.id.buttontuto);
         btnfacil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -30,7 +32,29 @@ public class Home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        btndificil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Home.this, Pregunta_1.class);
+                startActivity(intent);
+            }
+        });
 
+        btnintermedio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Home.this, Pregunta_1.class);
+                startActivity(intent);
+            }
+        });
+
+        btntuto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Home.this, Pregunta_1.class);
+                startActivity(intent);
+            }
+        });
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
 

@@ -47,4 +47,8 @@
     <string name="numeropreg"> 1/5 </string>
 
 
+    <!-- RESULTADO FINAL-->
+    <string name="textresultado">TU RESULTADO</string>
+
+
 </resources>

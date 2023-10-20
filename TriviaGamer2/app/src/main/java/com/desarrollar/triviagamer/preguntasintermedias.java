@@ -1,13 +1,13 @@
 package com.desarrollar.triviagamer;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatButton;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Pregunta_1 extends AppCompatActivity {
+public class preguntasintermedias extends AppCompatActivity {
 
 
     TextView quiztext;
@@ -73,7 +73,7 @@ public class Pregunta_1 extends AppCompatActivity {
                     }, 500);
 
                 } else {
-                    Intent intent = new Intent(Pregunta_1.this, Resultadofinal.class);
+                    Intent intent = new Intent(preguntasintermedias.this, Resultadofinal.class);
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -106,7 +106,7 @@ public class Pregunta_1 extends AppCompatActivity {
                     }, 500);
 
                 } else {
-                    Intent intent = new Intent(Pregunta_1.this, Resultadofinal.class);
+                    Intent intent = new Intent(preguntasintermedias.this, Resultadofinal.class);
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -140,7 +140,7 @@ public class Pregunta_1 extends AppCompatActivity {
                     }, 500);
 
                 } else {
-                    Intent intent = new Intent(Pregunta_1.this, Resultadofinal.class);
+                    Intent intent = new Intent(preguntasintermedias.this, Resultadofinal.class);
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -174,7 +174,7 @@ public class Pregunta_1 extends AppCompatActivity {
                     }, 500);
 
                 } else {
-                    Intent intent = new Intent(Pregunta_1.this, Resultadofinal.class);
+                    Intent intent = new Intent(preguntasintermedias.this, Resultadofinal.class);
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -198,10 +198,10 @@ public class Pregunta_1 extends AppCompatActivity {
 
     private void loadAllQuestion() {
         questionsitems = new ArrayList<>();
-        String jsonquiz = loadJsonFromAsset("preguntasfaciles.json");
+        String jsonquiz = loadJsonFromAsset("preguntasintermedias.json");
         try {
             JSONObject jsonObject = new JSONObject(jsonquiz);
-            JSONArray questions = jsonObject.getJSONArray("preguntasfaciles");
+            JSONArray questions = jsonObject.getJSONArray("preguntasintermedias");
             for (int i = 0; i < questions.length(); i++) {
 
                 JSONObject question = questions.getJSONObject(i);

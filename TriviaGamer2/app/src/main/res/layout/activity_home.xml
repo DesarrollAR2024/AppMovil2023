@@ -23,7 +23,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="FÁCIL" />
+         />
 
     <Button
         android:id="@+id/buttondificil3"
@@ -39,8 +39,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonfacil"
-        tools:text="DIFÍCIL" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonintermedio"
+         />
 
     <TextView
         android:id="@+id/textView"
@@ -70,10 +70,10 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="TUTORIAL" />
+         />
 
     <Button
-        android:id="@+id/buttonfacil"
+        android:id="@+id/buttonintermedio"
         android:layout_width="150dp"
         android:layout_height="75dp"
         android:layout_marginStart="16dp"
