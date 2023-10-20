@@ -1,0 +1,71 @@
+{
+  "preguntasdificiles": [
+
+    {
+      "question":"¿Como se llama la tierra  en la que se desarrolla  los eventos de blasphemous?",
+
+      "respuestacorrecta": "CVSTODIA",
+
+      "alternativa1":"Petrea",
+
+      "alternativa2":"yermo",
+
+      "alternativa3":"aljibe profanado"
+
+    },
+
+    {
+      "question":"¿Como se llama el primer videojuego que se jugo en el espacio exterior?",
+
+      "respuestacorrecta": "Tetris",
+
+      "alternativa1":"super mario bros",
+
+      "alternativa2": "sonic the hedgehog",
+
+      "alternativa3":"ping pong"
+
+    },
+
+    {
+
+      "question":"¿Como se llama el primer videojuego del mundo ?",
+
+      "respuestacorrecta": "Pong",
+
+      "alternativa1":"spaces Invaders",
+
+      "alternativa2":"pac-man",
+
+      "alternativa3":"tetris"
+    },
+
+    {
+      "question":"¿Nintendo empezo como una compañia que vendia que tipo de productos ?",
+
+      "respuestacorrecta": "Cartas",
+
+      "alternativa1": "radios",
+
+      "alternativa2":"peluches",
+
+      "alternativa3":"manga"
+
+    },
+
+    {
+
+      "question":"¿De que deporte e-sport son pro-players los jugadores Faker , rookie, uzi?",
+
+      "respuestacorrecta": "League of Legends",
+
+      "alternativa1":"valorant",
+
+      "alternativa2":"csgo",
+
+      "alternativa3":"fortnite"
+
+    }
+  ]
+
+}

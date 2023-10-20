@@ -1,0 +1,41 @@
+{
+  "preguntasfaciles": [
+    {
+      "question": "Si llegas al campo de batalla en bus volador , ¿a que juego estas jugando?",
+      "respuestacorrecta": "Fornite",
+      "alternativa1": "Pubg Mobile",
+      "alternativa2": "Valorant",
+      "alternativa3": "Apex Legends"
+    },
+    {
+      "question":"¿cual es el nombre del hijo de kratos?",
+      "respuestacorrecta": "Atreus",
+      "alternativa1": "thor",
+      "alternativa2": "Tyr",
+      "alternativa3":"Sindri"
+    },
+
+    {
+      "question": "¿que enemigo de Minecraft explota cuando se acerca a su objetivo ?",
+      "respuestacorrecta": "Creeper",
+      "alternativa1": "zombie",
+      "alternativa2": "bruja",
+      "alternativa3": "blaze"
+    },
+    {
+      "question":"¿ cuantas formas diferentes de cuatro bloques hay en “Tretis”?",
+      "respuestacorrecta": "7",
+      "alternativa1": "8",
+      "alternativa2": "4",
+      "alternativa3": "1"
+    },
+
+    {
+      "question":"¿En cual consola salio originalmente el juego “ Leyenda de Zelda : La ocarina del tiempo?",
+      "respuestacorrecta": "Nintendo 64",
+      "alternativa1": "xbox",
+      "alternativa2":"Gamecube",
+      "alternativa3":"NintendoDS"
+    }
+  ]
+}

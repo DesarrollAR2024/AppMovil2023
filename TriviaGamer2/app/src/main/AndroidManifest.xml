@@ -12,17 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TriviaGamer"
         tools:targetApi="31">
+
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false"/>
+
         <activity
             android:name=".AcercaActivity"
             android:exported="false" />
         <activity
-            android:name=".SignupActivity"
-            android:exported="false" />
-        <activity
             android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SingupActivity"
             android:exported="false" />
         <activity
             android:name=".terminosycondiciones2"
@@ -55,13 +54,7 @@
             android:name=".Home"
             android:exported="false" />
         <activity
-            android:name=".Registro"
-            android:exported="false" />
-        <activity
             android:name=".Ranking"
-            android:exported="false" />
-        <activity
-            android:name=".login"
             android:exported="false" />
         <activity
             android:name=".puntaje"

@@ -1,0 +1,49 @@
+{
+  "preguntasintermedias": [
+    {
+      "question":"¿Quien fue el primer S.T.A.R.S. que se enfrento a nemesis?",
+      "respuestacorrecta":"valentine",
+      "alternativa1": "lion Kennedy",
+      "alternativa2":"Chris Redfield",
+      "alternativa3":"Albert Wesker"
+
+    },
+    {
+      "question":"¿Como se llama el creador original de la idea de pokemon?",
+      "respuestacorrecta": "satoshi tajiri",
+      "alternativa1":"shigeru miyamoto",
+      "alternativa2":"Junichi Masuda",
+      "alternativa3":"Ken Sugimori"
+    },
+
+    {
+      "question":"¿como se llama el protagonista de Red Dead Redemption?",
+      "respuestacorrecta": "john marston",
+      "alternativa1": "arthur morgan",
+      "alternativa2": "sadie adler",
+      "alternativa3":"susan grimshaw"
+    },
+
+    {
+      "question":"¿Cual es la profesion de vivi en Final Fantasy IX?",
+
+      "respuestacorrecta": "Mago Negro",
+
+      "alternativa1":"soladado",
+
+      "alternativa2":"ladron",
+
+      "alternativa3":"mago blanco"
+    },
+
+    {
+      "question":"¿Como se llamaban las maquinas arcade lanzadas por Nintendo con juegos de NES?",
+      "respuestacorrecta": "Nintendo playchoice-10",
+      "alternativa1":"Nintendo MMW",
+      "alternativa2":"superstar arcade",
+      "alternativa3":"galaxy game"
+    }
+
+  ]
+
+}
