@@ -3,15 +3,15 @@
     <string name="app_name">TriviaGamer</string>
     <string name="Text_home">ELIGE TU MODO DE JUEGO</string>
     <string name="text_logo">TRIVIA GAMER</string>
-    <string name="btn_1">Tutorial</string>
-    <string name="btn_2">Facil</string>
-    <string name="btn_3">Intermedio</string>
-    <string name="btn_4">Dificil</string>
+    <string name="btn_1">TUTORIAL</string>
+    <string name="btn_2">FACIL</string>
+    <string name="btn_3">INTERMEDIO</string>
+    <string name="btn_4">DIFICIL</string>
     <!---->
     <string name="text_hel">Preguntas Frecuentes</string>
     <string name="text_bienvenida">Bienvenido a </string>
-    <string name="btn_login">Iniciar Sesion</string>
-    <string name="btn_registro">Registrate</string>
+    <string name="btn_login">INICIAR SESION</string>
+    <string name="btn_registro">REGISTRATE</string>
     <!--PREGUNTA 1-->
     <string name="pregunta">PREGUNTA 1</string>
     <string name="pregunta_txt">¿Quién es la madre de Kitana en Mortal Kombat?</string>
@@ -31,10 +31,20 @@
     <string name="puntaje_adicion">+1</string>
     <string name="boton_respuesta_correcta">Siguiente</string>
     <!--RESULTADO INCORRECTO-->
-    <string name="respuesta_incorrecta_1">RESPUESTA</string>
-    <string name="respuesta_incorrecta_2">INCORRECTA</string>
-    <string name="puntaje_resta">-1</string>
+    <string name="titulo_respuesta_incorrecta">RESPUESTA</string>
+
+
     <string name="boton_respuesta_incorrecta">" Siguiente "</string>
+    <string name="puntaje_resultado_incorrecto">-1</string>
+    <string name="titulo_respuesta_incorrecta2">INCORRECTA</string>
+
+    <!-- PREGUNTAS-->
+    <string name="preguntavista">Aca va la pregunta</string>
+    <string name="opcion1">opcion1</string>
+    <string name="opcion2">opcion2</string>
+    <string name="opcion3">opcion3</string>
+    <string name="opcion4">opcion4</string>
+    <string name="numeropreg"> 1/5 </string>
 
 
 </resources>
