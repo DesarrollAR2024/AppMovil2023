@@ -10,11 +10,10 @@
 
     <Button
         android:id="@+id/butn_iniciarsesionm2"
-        style="@style/Widget.Material3.Button"
         android:layout_width="155dp"
         android:layout_height="57dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="640dp"
+        android:layout_marginTop="560dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="#ec0d84"
         android:text="@string/btn_registro"
@@ -22,8 +21,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-         />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
@@ -41,7 +39,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.airbnb.lottie.LottieAnimationView
+   <!-- <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animationView"
         android:layout_width="5dp"
         android:layout_height="5dp"
@@ -51,14 +49,14 @@
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/animation_ln9bo35s"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp" />-->
 
     <Button
         android:id="@+id/butn_iniciarsesionm"
         android:layout_width="155dp"
         android:layout_height="57dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="508dp"
+        android:layout_marginTop="432dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="#ec0d84"
         android:text="@string/btn_login"
