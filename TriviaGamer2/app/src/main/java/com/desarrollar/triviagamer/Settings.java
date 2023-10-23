@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Switch;
 
-import static com.infowithvijay.triviaquizapp2.AppController.StopSound;
+import static com.desarrollar.triviagamer.AppController.StopSound;
 
 public class Settings extends AppCompatActivity {
 
