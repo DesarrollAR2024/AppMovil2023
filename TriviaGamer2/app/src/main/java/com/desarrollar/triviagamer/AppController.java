@@ -1,4 +1,4 @@
-package com.infowithvijay.triviaquizapp2;
+package com.desarrollar.triviagamer;
 
 import android.app.Activity;
 import android.app.Application;
