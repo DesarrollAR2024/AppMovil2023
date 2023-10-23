@@ -7,6 +7,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import com.desarrollar.triviagamer.TriviaQuizContract.*;
 
+import java.util.ArrayList;
+
 public class TriviaQuizHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "TriviaQuiz.db";
     private static final int DATBASE_VERSION = 14;
