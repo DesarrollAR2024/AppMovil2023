@@ -1,6 +1,5 @@
 *.iml
-gradle
-/.gradle
+.gradle
 /local.properties
 /.idea/caches
 /.idea/libraries
@@ -11,7 +10,5 @@ gradle
 .DS_Store
 /build
 /captures
-/TriviaGamer2/gradle/
 .externalNativeBuild
 .cxx
-local.properties
