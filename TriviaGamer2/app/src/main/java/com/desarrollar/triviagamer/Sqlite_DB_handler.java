@@ -1,5 +1,6 @@
 package com.desarrollar.triviagamer;
 
+
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;

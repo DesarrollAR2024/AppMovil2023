@@ -1,4 +1,4 @@
-package com.desarrollar.triviagamer;
+/*package com.desarrollar.triviagamer;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -38,4 +38,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //codigo para ir a otra pagina indicando a donde quiero ir!//
-}
+}*/
