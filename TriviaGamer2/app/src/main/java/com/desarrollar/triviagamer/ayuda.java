@@ -7,8 +7,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.infowithvijay.triviaquizapp2.R;
-
 /*import com.google.android.material.bottomnavigation.BottomNavigationView;*/
 
 public class ayuda extends AppCompatActivity {

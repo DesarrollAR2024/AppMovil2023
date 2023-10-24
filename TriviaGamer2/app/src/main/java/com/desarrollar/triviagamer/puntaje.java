@@ -4,7 +4,6 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.infowithvijay.triviaquizapp2.R;
 
 public class puntaje extends AppCompatActivity {
     @Override

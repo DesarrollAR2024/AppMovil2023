@@ -8,7 +8,6 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.infowithvijay.triviaquizapp2.R;
 
 public class Result extends AppCompatActivity {
 

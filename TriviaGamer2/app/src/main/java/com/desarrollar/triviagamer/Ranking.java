@@ -7,8 +7,6 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.infowithvijay.triviaquizapp2.R;
-
 import java.util.ArrayList;
 
 public class Ranking extends AppCompatActivity {

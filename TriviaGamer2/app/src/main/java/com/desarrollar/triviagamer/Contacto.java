@@ -8,8 +8,6 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.infowithvijay.triviaquizapp2.R;
-
 public class Contacto extends AppCompatActivity {
 
     Button btnenvcontacto;
