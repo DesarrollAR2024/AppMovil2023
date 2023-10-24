@@ -1,7 +1,6 @@
 package com.desarrollar.triviagamer;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
+import static com.desarrollar.triviagamer.AppController.StopSound;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -11,7 +10,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import static com.desarrollar.triviagamer.AppController.StopSound;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.infowithvijay.triviaquizapp2.R;
 
 public class PlayScreen extends AppCompatActivity implements View.OnClickListener {
 

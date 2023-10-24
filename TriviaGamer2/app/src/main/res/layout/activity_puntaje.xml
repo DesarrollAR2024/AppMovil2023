@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_app"
-    tools:context=".puntaje">
+    android:background="@color/violeta"
+    tools:context="com.desarrollar.triviagamer.puntaje">
 
-    <com.airbnb.lottie.LottieAnimationView
+<!--    <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView2"
         android:layout_width="120dp"
         android:layout_height="120dp"
@@ -19,7 +19,7 @@
         app:lottie_autoPlay="true"
         app:lottie_fileName="puntaje.json"
         app:lottie_imageAssetsFolder="assets"
-        app:lottie_loop="true" />
+        app:lottie_loop="true" />-->
 
     <Button
         android:id="@+id/button12"

@@ -1,12 +1,14 @@
 package com.desarrollar.triviagamer;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.infowithvijay.triviaquizapp2.R;
 
 public class Result extends AppCompatActivity {
 

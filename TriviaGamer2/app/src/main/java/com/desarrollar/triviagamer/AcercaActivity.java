@@ -8,7 +8,8 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
+
+import com.infowithvijay.triviaquizapp2.R;
 
 public class AcercaActivity extends AppCompatActivity {
 

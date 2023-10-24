@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/violeta"
     android:visibility="visible"
-    tools:context=".terminosycondiciones2"
+    tools:context="com.desarrollar.triviagamer.terminosycondiciones2"
     tools:visibility="visible">
 
     <TextView

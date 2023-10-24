@@ -1,6 +1,6 @@
 package com.desarrollar.triviagamer;
 
-import androidx.appcompat.app.AppCompatActivity;
+import static com.desarrollar.triviagamer.AppController.StopSound;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,7 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Switch;
 
-import static com.desarrollar.triviagamer.AppController.StopSound;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.infowithvijay.triviaquizapp2.R;
 
 public class Settings extends AppCompatActivity {
 

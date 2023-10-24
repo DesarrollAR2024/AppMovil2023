@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_app"
-    tools:context=".terminosycondi">
+    android:background="@color/violeta"
+    tools:context="com.desarrollar.triviagamer.terminosycondi">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

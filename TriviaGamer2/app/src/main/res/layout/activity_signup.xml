@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/fondo_registro"
-    tools:context=".SignupActivity">
+    tools:context="com.desarrollar.triviagamer.SignupActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -65,7 +65,7 @@
                 android:layout_marginTop="30dp"
                 android:text="REGISTRARME"
                 android:textSize="18sp"
-                app:cornerRadius="30dp" />
+                 />
 
 
             <TextView

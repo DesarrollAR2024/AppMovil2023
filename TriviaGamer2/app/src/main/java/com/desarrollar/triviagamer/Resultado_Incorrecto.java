@@ -1,8 +1,10 @@
 package com.desarrollar.triviagamer;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.infowithvijay.triviaquizapp2.R;
 
 public class Resultado_Incorrecto extends AppCompatActivity {
 

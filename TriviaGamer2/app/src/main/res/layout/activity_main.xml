@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/violeta"
 
-    tools:context=".MainActivity">
+    tools:context="com.desarrollar.triviagamer.MainActivity">
 
     <Button
         android:id="@+id/butn_iniciarsesionm2"
