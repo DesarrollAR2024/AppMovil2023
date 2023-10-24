@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.infowithvijay.triviaquizapp2"
+        applicationId "com.desarrollar.triviagamer"
         minSdkVersion 25
         targetSdkVersion 29
         versionCode 1
@@ -17,7 +17,7 @@ android {
         }
 
     }
-    namespace 'com.infowithvijay.triviaquizapp2'
+    namespace 'com.desarrollar.triviagamer'
 
 }
 

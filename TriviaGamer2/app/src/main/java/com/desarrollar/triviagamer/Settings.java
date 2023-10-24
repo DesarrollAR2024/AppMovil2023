@@ -11,7 +11,6 @@ import android.widget.Switch;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.infowithvijay.triviaquizapp2.R;
 
 public class Settings extends AppCompatActivity {
 

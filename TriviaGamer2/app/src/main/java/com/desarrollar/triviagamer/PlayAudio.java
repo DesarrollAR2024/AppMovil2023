@@ -3,7 +3,6 @@ package com.desarrollar.triviagamer;
 import android.content.Context;
 import android.media.MediaPlayer;
 
-import com.infowithvijay.triviaquizapp2.R;
 
 public class PlayAudio {
 

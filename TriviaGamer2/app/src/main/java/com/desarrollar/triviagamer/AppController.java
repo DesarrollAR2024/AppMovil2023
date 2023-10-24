@@ -6,8 +6,6 @@ import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 
-import com.infowithvijay.triviaquizapp2.R;
-
 public class AppController extends Application {
 
     private static Context mContext;
