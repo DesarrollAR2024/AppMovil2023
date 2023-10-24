@@ -17,6 +17,7 @@ android {
         }
 
     }
+    namespace 'com.infowithvijay.triviaquizapp2'
 
 }
 
