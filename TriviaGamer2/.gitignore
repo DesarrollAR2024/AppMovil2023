@@ -13,3 +13,6 @@ gradle
 /captures
 .externalNativeBuild
 .cxx
+*node_modules
+*package-lock.json
+*package.json
