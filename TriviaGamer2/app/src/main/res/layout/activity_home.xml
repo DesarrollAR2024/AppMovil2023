@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/violeta"
-    tools:context=".Home">
+    tools:context="com.desarrollar.triviagamer.Home">
 
 
     <Button
@@ -140,17 +140,17 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/ayuda" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
-        android:layout_width="409dp"
-        android:layout_height="65dp"
+        android:layout_width="417dp"
+        android:layout_height="67dp"
         android:layout_alignParentBottom="true"
+        app:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:menu="@menu/menu_navegacion" />
+        app:layout_constraintVertical_bias="0.998"
+        app:menu="@menu/menu_navegacion" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

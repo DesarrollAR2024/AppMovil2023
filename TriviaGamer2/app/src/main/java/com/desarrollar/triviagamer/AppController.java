@@ -1,4 +1,4 @@
-package com.infowithvijay.triviaquizapp2;
+package com.desarrollar.triviagamer;
 
 import android.app.Activity;
 import android.app.Application;
@@ -36,7 +36,7 @@ public class AppController extends Application {
 
         try {
 
-            player = MediaPlayer.create(getmContext(),R.raw.background);
+            player = MediaPlayer.create(getmContext(), R.raw.background);
             player.setAudioStreamType(AudioManager.STREAM_MUSIC);
             player.setLooping(true);
             player.setVolume(1f,1f);

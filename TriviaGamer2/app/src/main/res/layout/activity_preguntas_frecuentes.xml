@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo_faq"
-    tools:context=".Preguntas_Frecuentes">
+    tools:context="com.desarrollar.triviagamer.Preguntas_Frecuentes">
 
     <ScrollView
         android:id="@+id/scrollView2"

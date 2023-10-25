@@ -1,7 +1,8 @@
-package com.infowithvijay.triviaquizapp2;
+package com.desarrollar.triviagamer;
 
 import android.content.Context;
 import android.media.MediaPlayer;
+
 
 public class PlayAudio {
 

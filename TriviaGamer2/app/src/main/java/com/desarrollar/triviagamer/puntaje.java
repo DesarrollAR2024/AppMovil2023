@@ -1,8 +1,9 @@
 package com.desarrollar.triviagamer;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
 
 public class puntaje extends AppCompatActivity {
     @Override
