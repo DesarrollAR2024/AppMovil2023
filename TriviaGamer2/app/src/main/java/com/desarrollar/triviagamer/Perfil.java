@@ -1,17 +1,16 @@
 package com.desarrollar.triviagamer;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
+import androidx.appcompat.app.AppCompatActivity;
+
 
 public class Perfil extends AppCompatActivity {
     Button btnvolverhome;
-    BottomNavigationView bottomNavigationView;
+    /*BottomNavigationView bottomNavigationView;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +26,7 @@ public class Perfil extends AppCompatActivity {
             }
         });
 
-        bottomNavigationView = findViewById(R.id.navegacion);
+       /* bottomNavigationView = findViewById(R.id.navegacion);
 
         // Set Home selected
         bottomNavigationView.setSelectedItemId(R.id.perfil);
@@ -55,6 +54,6 @@ public class Perfil extends AppCompatActivity {
             return true;
         }
             return false;
-        });
+        });*/
     }
 }

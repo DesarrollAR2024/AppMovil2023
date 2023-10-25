@@ -8,19 +8,19 @@
     android:gravity="center"
     android:background="@drawable/background"
     android:layout_height="match_parent"
-    tools:context=".PlayScreen">
+    tools:context="com.desarrollar.triviagamer.PlayScreen">
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
-        android:textSize="50sp"
-        android:layout_marginBottom="50dp"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:textColor="#fff"
         android:layout_height="wrap_content"
-        android:text="Trivia Quiz with Category" />
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="50dp"
+        android:text="Quiz Game Mate"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="50sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -31,31 +31,31 @@
 
     <Button
         android:id="@+id/bt_playQuiz"
-        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
-        android:background="@drawable/default_button_bg"
-        android:textColor="#fff"
-        android:textStyle="bold"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:textSize="30sp"
-        android:textAllCaps="false"
-        android:padding="10dp"
         android:layout_height="wrap_content"
-        android:text="Play Quiz" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/default_button_bg"
+        android:padding="10dp"
+        android:text="Jugar"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <Button
-        android:layout_marginTop="25dp"
         android:id="@+id/bt_settings"
-        android:background="@drawable/default_button_bg"
-        android:textColor="#fff"
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:textAllCaps="false"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Settings" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/default_button_bg"
+        android:padding="10dp"
+        android:text="Ajustes"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 </LinearLayout>

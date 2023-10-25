@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_app"
+    android:background="@color/violeta"
 
-    tools:context=".Resultado_Incorrecto">
+    tools:context="com.desarrollar.triviagamer.Resultado_Incorrecto">
 
 
-    <com.airbnb.lottie.LottieAnimationView
+<!--    <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView2"
         android:layout_width="120dp"
         android:layout_height="120dp"
@@ -21,7 +21,7 @@
         app:lottie_autoPlay="true"
         app:lottie_fileName="llanto.json"
         app:lottie_imageAssetsFolder="assets"
-        app:lottie_loop="true" />
+        app:lottie_loop="true" />-->
 
     <Button
         android:id="@+id/button6"
@@ -36,7 +36,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView2"
         app:layout_constraintVertical_bias="0.391" />
 
     <View

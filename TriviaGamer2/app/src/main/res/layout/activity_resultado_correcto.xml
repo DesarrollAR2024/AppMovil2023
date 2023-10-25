@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_app"
+    android:background="@color/violeta"
+tools:context="com.desarrollar.triviagamer.Resultado_correcto"
+    >
 
-    tools:context=".Registro">
-
-    <com.airbnb.lottie.LottieAnimationView
+<!--    <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView2"
         android:layout_width="120dp"
         android:layout_height="120dp"
@@ -20,7 +20,7 @@
         app:lottie_autoPlay="true"
         app:lottie_fileName="aplausos.json"
         app:lottie_imageAssetsFolder="assets"
-        app:lottie_loop="true" />
+        app:lottie_loop="true" />-->
 
     <Button
         android:id="@+id/buttnsigcorrecto"
@@ -34,9 +34,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView2"
-        app:layout_constraintVertical_bias="0.397" />
+        app:layout_constraintStart_toStartOf="parent"/>
+        <!--app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView2"-->
+        <!--app:layout_constraintVertical_bias="0.397"-->
+
 
     <View
         android:id="@+id/view"

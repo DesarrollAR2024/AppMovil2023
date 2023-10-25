@@ -1,11 +1,12 @@
-package com.infowithvijay.triviaquizapp2;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.desarrollar.triviagamer;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 
 public class CategoryActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -39,7 +40,7 @@ public class CategoryActivity extends AppCompatActivity implements View.OnClickL
             case R.id.bt_Dart:
 
                 Intent intentDart = new Intent(CategoryActivity.this,QuizActivity.class);
-                intentDart.putExtra("Category",TriviaQuestion.CATEGORY_DART);
+                intentDart.putExtra("Category",TriviaQuestion.CATEGORY_HISTORIA);
                 startActivity(intentDart);
                 finish();
                 break;
@@ -47,7 +48,7 @@ public class CategoryActivity extends AppCompatActivity implements View.OnClickL
             case R.id.bt_Java:
 
                 Intent intentJava = new Intent(CategoryActivity.this,QuizActivity.class);
-                intentJava.putExtra("Category",TriviaQuestion.CATEGORY_JAVA);
+                intentJava.putExtra("Category",TriviaQuestion.CATEGORY_JUEGOSDEMESA);
                 startActivity(intentJava);
                 finish();
                 break;
@@ -56,7 +57,7 @@ public class CategoryActivity extends AppCompatActivity implements View.OnClickL
             case R.id.bt_Kotlin:
 
                 Intent intentKotlin = new Intent(CategoryActivity.this,QuizActivity.class);
-                intentKotlin.putExtra("Category",TriviaQuestion.CATEGORY_KOTLIN);
+                intentKotlin.putExtra("Category",TriviaQuestion.CATEGORY_PERSONAJES);
                 startActivity(intentKotlin);
                 finish();
                 break;
@@ -65,17 +66,11 @@ public class CategoryActivity extends AppCompatActivity implements View.OnClickL
             case R.id.bt_Flutter:
 
                 Intent intentFlutter = new Intent(CategoryActivity.this,QuizActivity.class);
-                intentFlutter.putExtra("Category",TriviaQuestion.CATEGORY_FLUTTER);
+                intentFlutter.putExtra("Category",TriviaQuestion.CATEGORY_JUEGOSDEROL);
                 startActivity(intentFlutter);
                 finish();
                 break;
 
-            case R.id.bt_JavaScript:
-                Intent intenJavaScript = new Intent(CategoryActivity.this,QuizActivity.class);
-                intenJavaScript.putExtra("Category",TriviaQuestion.CATEGORY_JAVASCRIPT);
-                startActivity(intenJavaScript);
-                finish();
-                break;
         }
 
     }
