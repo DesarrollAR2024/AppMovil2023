@@ -3,11 +3,10 @@ package com.desarrollar.triviagamer;
 public class TriviaQuestion {
 
 
-    public static final String CATEGORY_KOTLIN = "Kotlin";
-    public static final String CATEGORY_JAVA = "Java";
-    public static final String CATEGORY_DART= "Dart";
-    public static final String CATEGORY_FLUTTER = "Flutter";
-    public static final String CATEGORY_JAVASCRIPT = "JavaScript";
+    public static final String CATEGORY_PERSONAJES = "Personajes";
+    public static final String CATEGORY_HISTORIA = "Historia";
+    public static final String CATEGORY_JUEGOSDEMESA= "Juego de Mesa";
+    public static final String CATEGORY_JUEGOSDEROL = "Juegos De Roles";
 
     private String question;
     private String option1;

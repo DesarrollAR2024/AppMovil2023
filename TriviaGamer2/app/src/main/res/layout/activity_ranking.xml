@@ -4,20 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5967B8"
+    android:background="@drawable/background"
     android:theme="@style/AppTheme"
     tools:context="com.desarrollar.triviagamer.Ranking">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="420dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/violeta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/trivia_gamer_logo" />
 
     <TextView
         android:id="@+id/rankingList"
-        android:layout_width="255dp"
-        android:layout_height="561dp"
+        android:layout_width="331dp"
+        android:layout_height="447dp"
+        android:background="@drawable/btn_answ"
+        android:radius="20dp"
         android:text=""
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.075" />
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="324dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/btn_rank"
+        android:gravity="center"
+        android:text="RANKING GLOBAL"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 public class TriviaQuizHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "TriviaQuiz.db";
-    private static final int DATBASE_VERSION = 14;
+    private static final int DATBASE_VERSION = 15;
 
     private SQLiteDatabase db;
 
@@ -39,6 +39,7 @@ public class TriviaQuizHelper extends SQLiteOpenHelper {
                 QuestionTable.COLUMN_CATEGORY + " TEXT " +
                 ")";
 
+
         db.execSQL(SQL_CREATE_QUESTIONS_TABLE);
         fillQuestionsTable();
     }
@@ -55,41 +56,41 @@ public class TriviaQuizHelper extends SQLiteOpenHelper {
     private void fillQuestionsTable()
     {
 
-        TriviaQuestion q1 = new TriviaQuestion("Category : Java Android is what ?","OS","Drivers","Software","Hardware","OS",TriviaQuestion.CATEGORY_JAVA);
+        TriviaQuestion q1 = new TriviaQuestion("Category : ¿Como se llama el creador original de la idea de pokemon?","Shigeru miyamoto","Satoshi tajiri","Junichi Masuda","Ken Sugimori","Satoshi tajiri",TriviaQuestion.CATEGORY_HISTORIA);
         addQuestions(q1);
 
-        TriviaQuestion q2 = new TriviaQuestion("Category : Java Full form of PC is ?","Personal Computer","PIPO","TIPU","XXXIV","Personal Computer",TriviaQuestion.CATEGORY_JAVA);
+        TriviaQuestion q2 = new TriviaQuestion("Category : ¿Cual es el nombre del hijo de kratos?","Atreus","Sindri","Tyr","Thor","Atreus",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q2);
 
-        TriviaQuestion q3= new TriviaQuestion("Category : Java The father of computer is  ?","Charles Babbage","Oliver twist","Love lice","lice","Charles Babbage",TriviaQuestion.CATEGORY_JAVA);
+        TriviaQuestion q3= new TriviaQuestion("Category : ¿Como se llamaban las maquinas arcade lanzadas por Nintendo con juegos de NES?","Nintendo playchoice-10","Nintendo MMW","Superstar Arcade","Galaxy Game","Nintendo playchoice-10",TriviaQuestion.CATEGORY_HISTORIA);
         addQuestions(q3);
 
-        TriviaQuestion q4= new TriviaQuestion("Category : Java Which of the following is not a computer language?","BASIC","FORTRAN","LOUTS","COBOL","LOUTS",TriviaQuestion.CATEGORY_JAVA);
+        TriviaQuestion q4= new TriviaQuestion("Category : ¿Quien fue el primer S.T.A.R.S. que se enfrento a nemesis?","Lion Kennedy ","Chris Redfield","Jill valentine","Albert Wesker","Jill valentine",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q4);
 
-        TriviaQuestion q5= new TriviaQuestion("Category : Java The third generation computers were made with ?","Bio Chips ","Transistors","Integrated Circuits","Vacuum Tubes ","Integrated Circuits",TriviaQuestion.CATEGORY_JAVA);
+        TriviaQuestion q5= new TriviaQuestion("Category : ¿Como se llama el protagonista de Red Dead Redemption?","susan grimshaw","Sadie Adler","John Marston","Arthur Morgan ","John Marston",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q5);
 
-        TriviaQuestion q6= new TriviaQuestion("Category : Java The first page displayed by Web browser after opening a Web site is called ?","Home page","Browser page","Search page  ","Bookmark","Home page",TriviaQuestion.CATEGORY_JAVA);
+        TriviaQuestion q6= new TriviaQuestion("Category : ¿De que deporte e-sport son pro-players los jugadores Faker , rookie, uzi ?","League of Legends ","Valorant","Csgo","Fortnite","League of Legends ",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q6);
 
 
-        TriviaQuestion q7= new TriviaQuestion("Category : Kotlin DuckDuck Go is what ?","Search Engine","Browser page","Search page  ","Bookmark","Search Engine",TriviaQuestion.CATEGORY_KOTLIN);
+        TriviaQuestion q7= new TriviaQuestion("Category : ¿En cual consola salio originalmente el juego “ Leyenda de Zelda : La ocarina del tiempo?","NintendoDS","Gamecube","xbox","Nintendo 64","Nintendo 64",TriviaQuestion.CATEGORY_HISTORIA);
         addQuestions(q7);
 
-        TriviaQuestion q8= new TriviaQuestion("Category : Kotlin What is Norton?","Anitivirus","Browser page","Vaccine","Program","Anitivirus",TriviaQuestion.CATEGORY_KOTLIN);
+        TriviaQuestion q8= new TriviaQuestion("Category : ¿Cual es la profesion de vivi en Final Fantasy IX?","Soladado","Mago Negro","Ladron","Mago blanco","Mago Negro",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q8);
 
-        TriviaQuestion q9= new TriviaQuestion("Category : Kotlin Who is the inventor of www?","Bill Gates","Tim Berners-Lee","Timothy Bil","Ray Tomlinson","Tim Berners-Lee",TriviaQuestion.CATEGORY_KOTLIN);
+        TriviaQuestion q9= new TriviaQuestion("Category : ¿Como se llama el primer videojuego del mundo ?","tetris","Pac-Man","Spaces Invaders","Pong","Pong",TriviaQuestion.CATEGORY_HISTORIA);
         addQuestions(q9);
 
-        TriviaQuestion q10= new TriviaQuestion("Category : Kotlin Ethernet is an example of ","MAN","LAN","WAN","Wi-Fi","LAN",TriviaQuestion.CATEGORY_KOTLIN);
+        TriviaQuestion q10= new TriviaQuestion("Category : ¿Que enemigo de Minecraft explota cuando se acerca a su objetivo ? ","Creeper","Blaze","Bruja","Zombie","Creeper",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q10);
 
-        TriviaQuestion q11= new TriviaQuestion("Category : Kotlin HTML is used to create","Operating System","High Level Program","Web-Server","Web Page","Web Page",TriviaQuestion.CATEGORY_KOTLIN);
+        TriviaQuestion q11= new TriviaQuestion("Category : Si llegas al campo de batalla en bus volador , ¿A que juego estas jugando? ","Apex Legends","Valorant","Pubg Mobile","Fornite","Fornite",TriviaQuestion.CATEGORY_HISTORIA);
         addQuestions(q11);
 
-        TriviaQuestion q12= new TriviaQuestion("Category : Kotlin Speed of internet connection is measured in","GHz","dpi","ppm","Gbps","Gbps",TriviaQuestion.CATEGORY_KOTLIN);
+        TriviaQuestion q12= new TriviaQuestion("Category : ¿Como se llama el primer videojuego que se jugo en el espacio exterior?","Ping Pong","Sonic The Hedgehog","Super Mario Bros","Tetris","Tetris",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q12);
 
 
