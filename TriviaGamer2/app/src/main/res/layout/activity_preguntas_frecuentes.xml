@@ -150,43 +150,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView58"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/white"
-                android:paddingTop="10sp"
-                android:paddingBottom="10sp"
-                android:text="Si tienes algun problema técnico no dudes en mandarnos un mensaje en la sección CONTACTO y te estaremos brindando una pronta respuesta."
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView59"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10sp"
-                android:text="¿Cómo puedo mejorar en el ranking?"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="15sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView60"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/white"
-                android:paddingTop="10sp"
-                android:paddingBottom="10sp"
-                android:text="El ranking en la aplicación se basa en la puntuación de las trivias. Juega con regularidad, responde correctamente y gana puntos para ascender en el ranking."
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="bold" />
-
-            <TextView
                 android:id="@+id/textView61"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -203,14 +166,17 @@
             <Button
                 android:id="@+id/buttonvolverfaq"
                 android:layout_width="match_parent"
-                android:layout_height="44dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/default_button_bg"
+                android:padding="10dp"
                 android:text="Volver"
-                android:textSize="20sp" />
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
     </ScrollView>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

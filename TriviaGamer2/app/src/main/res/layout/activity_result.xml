@@ -27,7 +27,7 @@
             android:background="@drawable/dialog_bg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Result " />  <!--Result Heading-->
+            android:text="Resultado " />  <!--Result Heading-->
 
         <LinearLayout
             android:orientation="horizontal"
@@ -171,7 +171,7 @@
                 android:textSize="22sp"
                 android:padding="20dp"
                 android:textAllCaps="false"
-                android:text="Play Again" />
+                android:text="Juega de nuevo" />
 
             <Button
                 android:id="@+id/bt_PlayScreenR"
@@ -187,7 +187,7 @@
                 android:textAllCaps="false"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Play Screen" />
+                android:text="Home" />
         </LinearLayout>
 
     </LinearLayout>

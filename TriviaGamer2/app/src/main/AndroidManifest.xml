@@ -15,6 +15,7 @@
         <activity android:name=".Result" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".PlayScreen" />
+        <activity android:name=".Ranking" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
