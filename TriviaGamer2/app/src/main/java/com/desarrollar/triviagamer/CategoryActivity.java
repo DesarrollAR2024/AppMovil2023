@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class CategoryActivity extends AppCompatActivity implements View.OnClickListener{
 
-    Button btJava,btKotlin,btDart,btFlutter,btJavaScript;
+    Button btJava,btKotlin,btDart,btFlutter,btranking;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,21 +21,23 @@ public class CategoryActivity extends AppCompatActivity implements View.OnClickL
         btJava = findViewById(R.id.bt_Java);
         btKotlin = findViewById(R.id.bt_Kotlin);
         btFlutter = findViewById(R.id.bt_Flutter);
-        btJavaScript = findViewById(R.id.bt_JavaScript);
+        btranking = findViewById(R.id.bt_JavaScript);
 
 
         btDart.setOnClickListener(this);
         btJava.setOnClickListener(this);
         btKotlin.setOnClickListener(this);
         btFlutter.setOnClickListener(this);
-        btJavaScript.setOnClickListener(this);
+        btranking.setOnClickListener(this);
 
     }
+
 
     @Override
     public void onClick(View view) {
 
-        switch (view.getId()){
+
+  switch (view.getId()){
 
             case R.id.bt_Dart:
 
@@ -71,9 +73,19 @@ public class CategoryActivity extends AppCompatActivity implements View.OnClickL
                 finish();
                 break;
 
-        }
+
+              case R.id.bt_JavaScript:
+
+                  Intent intentRanking = new Intent(CategoryActivity.this,Ranking.class);
+                    startActivity(intentRanking);
+                    finish();
+                    break;
+
+  }
 
     }
+
+
 
     @Override
     public void onBackPressed() {

@@ -91,6 +91,7 @@ public class Sqlite_DB_handler extends SQLiteOpenHelper {
             rankingList.add(user);
         }
 
+        cursor.close();
         return rankingList;
     }
 

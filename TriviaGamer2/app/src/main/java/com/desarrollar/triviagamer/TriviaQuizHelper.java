@@ -56,41 +56,41 @@ public class TriviaQuizHelper extends SQLiteOpenHelper {
     private void fillQuestionsTable()
     {
 
-        TriviaQuestion q1 = new TriviaQuestion("Category : ¿Como se llama el creador original de la idea de pokemon?","Shigeru miyamoto","Satoshi tajiri","Junichi Masuda","Ken Sugimori","Satoshi tajiri",TriviaQuestion.CATEGORY_HISTORIA);
+        TriviaQuestion q1 = new TriviaQuestion(" ¿Como se llama el creador original de la idea de pokemon?","Shigeru miyamoto","Satoshi tajiri","Junichi Masuda","Ken Sugimori","Satoshi tajiri",TriviaQuestion.CATEGORY_HISTORIA);
         addQuestions(q1);
 
-        TriviaQuestion q2 = new TriviaQuestion("Category : ¿Cual es el nombre del hijo de kratos?","Atreus","Sindri","Tyr","Thor","Atreus",TriviaQuestion.CATEGORY_PERSONAJES);
+        TriviaQuestion q2 = new TriviaQuestion("¿Cual es el nombre del hijo de kratos?","Atreus","Sindri","Tyr","Thor","Atreus",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q2);
 
-        TriviaQuestion q3= new TriviaQuestion("Category : ¿Como se llamaban las maquinas arcade lanzadas por Nintendo con juegos de NES?","Nintendo playchoice-10","Nintendo MMW","Superstar Arcade","Galaxy Game","Nintendo playchoice-10",TriviaQuestion.CATEGORY_HISTORIA);
+        TriviaQuestion q3= new TriviaQuestion(" ¿Como se llamaban las maquinas arcade lanzadas por Nintendo con juegos de NES?","Nintendo playchoice-10","Nintendo MMW","Superstar Arcade","Galaxy Game","Nintendo playchoice-10",TriviaQuestion.CATEGORY_HISTORIA);
         addQuestions(q3);
 
-        TriviaQuestion q4= new TriviaQuestion("Category : ¿Quien fue el primer S.T.A.R.S. que se enfrento a nemesis?","Lion Kennedy ","Chris Redfield","Jill valentine","Albert Wesker","Jill valentine",TriviaQuestion.CATEGORY_PERSONAJES);
+        TriviaQuestion q4= new TriviaQuestion(" ¿Quien fue el primer S.T.A.R.S. que se enfrento a nemesis?","Lion Kennedy ","Chris Redfield","Jill valentine","Albert Wesker","Jill valentine",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q4);
 
-        TriviaQuestion q5= new TriviaQuestion("Category : ¿Como se llama el protagonista de Red Dead Redemption?","susan grimshaw","Sadie Adler","John Marston","Arthur Morgan ","John Marston",TriviaQuestion.CATEGORY_PERSONAJES);
+        TriviaQuestion q5= new TriviaQuestion("¿Como se llama el protagonista de Red Dead Redemption?","susan grimshaw","Sadie Adler","John Marston","Arthur Morgan ","John Marston",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q5);
 
-        TriviaQuestion q6= new TriviaQuestion("Category : ¿De que deporte e-sport son pro-players los jugadores Faker , rookie, uzi ?","League of Legends ","Valorant","Csgo","Fortnite","League of Legends ",TriviaQuestion.CATEGORY_PERSONAJES);
+        TriviaQuestion q6= new TriviaQuestion("¿De que deporte e-sport son pro-players los jugadores Faker , rookie, uzi ?","League of Legends ","Valorant","Csgo","Fortnite","League of Legends ",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q6);
 
 
-        TriviaQuestion q7= new TriviaQuestion("Category : ¿En cual consola salio originalmente el juego “ Leyenda de Zelda : La ocarina del tiempo?","NintendoDS","Gamecube","xbox","Nintendo 64","Nintendo 64",TriviaQuestion.CATEGORY_HISTORIA);
+        TriviaQuestion q7= new TriviaQuestion("¿En cual consola salio originalmente el juego “ Leyenda de Zelda : La ocarina del tiempo?","NintendoDS","Gamecube","xbox","Nintendo 64","Nintendo 64",TriviaQuestion.CATEGORY_HISTORIA);
         addQuestions(q7);
 
-        TriviaQuestion q8= new TriviaQuestion("Category : ¿Cual es la profesion de vivi en Final Fantasy IX?","Soladado","Mago Negro","Ladron","Mago blanco","Mago Negro",TriviaQuestion.CATEGORY_PERSONAJES);
+        TriviaQuestion q8= new TriviaQuestion(" ¿Cual es la profesion de vivi en Final Fantasy IX?","Soladado","Mago Negro","Ladron","Mago blanco","Mago Negro",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q8);
 
-        TriviaQuestion q9= new TriviaQuestion("Category : ¿Como se llama el primer videojuego del mundo ?","tetris","Pac-Man","Spaces Invaders","Pong","Pong",TriviaQuestion.CATEGORY_HISTORIA);
+        TriviaQuestion q9= new TriviaQuestion("¿Como se llama el primer videojuego del mundo ?","tetris","Pac-Man","Spaces Invaders","Pong","Pong",TriviaQuestion.CATEGORY_HISTORIA);
         addQuestions(q9);
 
-        TriviaQuestion q10= new TriviaQuestion("Category : ¿Que enemigo de Minecraft explota cuando se acerca a su objetivo ? ","Creeper","Blaze","Bruja","Zombie","Creeper",TriviaQuestion.CATEGORY_PERSONAJES);
+        TriviaQuestion q10= new TriviaQuestion("¿Que enemigo de Minecraft explota cuando se acerca a su objetivo ? ","Creeper","Blaze","Bruja","Zombie","Creeper",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q10);
 
-        TriviaQuestion q11= new TriviaQuestion("Category : Si llegas al campo de batalla en bus volador , ¿A que juego estas jugando? ","Apex Legends","Valorant","Pubg Mobile","Fornite","Fornite",TriviaQuestion.CATEGORY_HISTORIA);
+        TriviaQuestion q11= new TriviaQuestion("Si llegas al campo de batalla en bus volador , ¿A que juego estas jugando? ","Apex Legends","Valorant","Pubg Mobile","Fornite","Fornite",TriviaQuestion.CATEGORY_HISTORIA);
         addQuestions(q11);
 
-        TriviaQuestion q12= new TriviaQuestion("Category : ¿Como se llama el primer videojuego que se jugo en el espacio exterior?","Ping Pong","Sonic The Hedgehog","Super Mario Bros","Tetris","Tetris",TriviaQuestion.CATEGORY_PERSONAJES);
+        TriviaQuestion q12= new TriviaQuestion("¿Como se llama el primer videojuego que se jugo en el espacio exterior?","Ping Pong","Sonic The Hedgehog","Super Mario Bros","Tetris","Tetris",TriviaQuestion.CATEGORY_PERSONAJES);
         addQuestions(q12);
 
 
