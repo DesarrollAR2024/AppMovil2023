@@ -149,24 +149,34 @@
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingTop="30sp"
+                android:paddingRight="10sp"
+                android:paddingBottom="40sp"
+                android:text="No dudes en visitar nuestra sección de contacto por cualquier otra consulta"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonvolverfaq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/default_button_bg"
+                android:padding="10dp"
+                android:text="Volver"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
         </LinearLayout>
     </ScrollView>
-
-    <TextView
-        android:id="@+id/textView58"
-        android:layout_width="351dp"
-        android:layout_height="75dp"
-        android:background="@color/white"
-        android:paddingTop="10sp"
-        android:paddingBottom="10sp"
-        android:text="Si tienes algun problema técnico no dudes en mandarnos un mensaje en la sección CONTACTO y te estaremos brindando una pronta respuesta."
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="603dp" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
