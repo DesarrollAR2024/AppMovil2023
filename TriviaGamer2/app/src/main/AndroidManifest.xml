@@ -17,7 +17,7 @@
         <activity android:name=".PlayScreen" />
         <activity android:name=".Ranking" />
         <activity android:name=".Preguntas_Frecuentes" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
