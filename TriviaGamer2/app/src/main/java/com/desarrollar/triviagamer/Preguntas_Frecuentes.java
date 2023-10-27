@@ -10,18 +10,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Preguntas_Frecuentes extends AppCompatActivity {
 
-    Button btnvolver;
+    Button buttonvolverfaq;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_preguntas_frecuentes);
 
-        btnvolver= findViewById(R.id.buttonvolverfaq);
-        btnvolver.setOnClickListener(new View.OnClickListener() {
+        buttonvolverfaq = findViewById(R.id.buttonvolverfaq);
+        buttonvolverfaq.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Preguntas_Frecuentes.this, ayuda.class);
+                Intent intent = new Intent(Preguntas_Frecuentes.this, Settings.class);
                 startActivity(intent);
             }
         });

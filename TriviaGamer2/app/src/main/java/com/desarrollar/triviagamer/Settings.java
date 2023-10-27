@@ -11,6 +11,8 @@ import android.widget.Switch;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Set;
+
 
 public class Settings extends AppCompatActivity {
 
@@ -19,11 +21,22 @@ public class Settings extends AppCompatActivity {
     private Button ok_btn;
     private boolean isMusicOn;
 
+    Button Pfrecuentes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
+
+        Pfrecuentes = (Button) findViewById(R.id.Pfrecuentes);
+
+                Pfrecuentes.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent i = new Intent( Settings.this , Preguntas_Frecuentes.class);
+                        startActivity(i);
+                    }
+                });
 
         mContext = Settings.this;
         AppController.currentActivity = this;
