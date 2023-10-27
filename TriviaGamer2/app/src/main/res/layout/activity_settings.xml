@@ -49,16 +49,16 @@
                 android:background="#fff"
                 android:orientation="horizontal">
 
-                <TextView
+                <Button
+                    android:id="@+id/Pfrecuentes"
                     android:layout_width="wrap_content"
-                    android:id="@+id/set_preguntas_frecuentes"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
                     android:padding="20dp"
                     android:text="Preguntas Frecuentes"
                     android:textColor="#000"
                     android:textSize="22sp"
-                    android:textStyle="bold"></TextView>
+                    android:textStyle="bold"></Button>
             </LinearLayout>
 
             <View

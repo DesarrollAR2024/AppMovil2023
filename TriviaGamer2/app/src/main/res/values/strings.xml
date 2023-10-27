@@ -75,7 +75,7 @@
     <string name="opcion3">opcion3</string>
     <string name="opcion4">opcion4</string>
     <string name="numeropreg"> 1/5 </string>
-
+    <string name="rankItemScore_placeholder" />
 
 
 </resources>

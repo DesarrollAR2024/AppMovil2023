@@ -202,7 +202,7 @@ public class QuizActivity extends AppCompatActivity {
                     coins = coins + 10;
                     coinsUpdateText(coins);
 
-                    Log.i("QuizInfo","Correct");
+                    Log.i("QuizInfo","Correcto");
 
                     handler2.postDelayed(new Runnable() {
                         @Override
@@ -292,7 +292,7 @@ public class QuizActivity extends AppCompatActivity {
                     coins = coins + 10;
                     coinsUpdateText(coins);
 
-                    Log.i("QuizInfo","Correct");
+                    Log.i("QuizInfo","Correcto");
 
                     handler2.postDelayed(new Runnable() {
                         @Override
@@ -382,7 +382,7 @@ public class QuizActivity extends AppCompatActivity {
                     coins = coins + 10;
                     coinsUpdateText(coins);
 
-                    Log.i("QuizInfo","Correct");
+                    Log.i("QuizInfo","Correcto");
 
                     handler2.postDelayed(new Runnable() {
                         @Override
@@ -473,7 +473,7 @@ public class QuizActivity extends AppCompatActivity {
                     coins = coins + 10;
                     coinsUpdateText(coins);
 
-                    Log.i("QuizInfo","Correct");
+                    Log.i("QuizInfo","Correcto");
 
                     handler2.postDelayed(new Runnable() {
                         @Override
@@ -572,7 +572,7 @@ public class QuizActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }else {
-            Toast.makeText(this, "Press Again to Exit", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Presiona de nuevo para salir", Toast.LENGTH_SHORT).show();
         }
 
         backPressedTime = System.currentTimeMillis();
@@ -655,7 +655,7 @@ public class QuizActivity extends AppCompatActivity {
 
         if (timeLeftMillis == 0){
 
-            Toast.makeText(this, "Times Up!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "El tiempo se acabó!", Toast.LENGTH_SHORT).show();
 
             handler.postDelayed(new Runnable() {
                 @Override

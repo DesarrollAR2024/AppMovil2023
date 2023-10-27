@@ -6,32 +6,28 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
 public class Ranking extends AppCompatActivity {
-
-    TextView lista;
-
-    private DBHelper DB;
+    RecyclerView rankingLista;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ranking);
 
-
-        DB = new DBHelper(this);
+        DBHelper DB = new DBHelper(this);
+        rankingLista = findViewById(R.id.rankingList);
+        rankingLista.setLayoutManager(new LinearLayoutManager(this));
 
         ArrayList<RankingUser> rankingList = DB.getRankingList();
-        lista = findViewById(R.id.rankingList);
-        ArrayList<String> rankingListString = new ArrayList<>();
-        for (RankingUser user: rankingList) {
-            String s = "";
-            s = s + user.getName() + "," + "Score:" + user.getScore();
-            rankingListString.add(s);
-        }
-        lista.setText(String.join("\n, ", rankingListString));
+
+        RankingListAdapter adapter = new RankingListAdapter(rankingList);
+
+        rankingLista.setAdapter(adapter);
 
     }
 }

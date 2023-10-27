@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class DBHelper extends SQLiteOpenHelper {
     public static final String DBNAME = "Login.db";
 
-    private static final int DB_VERSION = 8;
+    private static final int DB_VERSION = 10;
     private static final String TABLE_NAME = "users";
     private static final String ID_COL = "id";
     private static final String NAME_COL = "username";
@@ -40,7 +40,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public void fillUserTable(SQLiteDatabase MyDB) {
         String[] names = new String[]{"aaa", "bbb", "ccc", "ddd", "eee"};
         String[] passwords = new String[]{"aaa", "bbb", "ccc", "ddd", "eee"};
-        int[] scores = new int[]{13213,564,6848,8494,321};
+        int[] scores = new int[]{1366213,564,6848,8494,321};
 
         for (int i = 0; i < 5; i++) {
             addUsers(MyDB, names[i], passwords[i], scores[i]);
@@ -97,7 +97,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
         SQLiteDatabase db = getReadableDatabase();
 
-        Cursor cursor= db.rawQuery("select * from users order by score desc", null);
+        Cursor cursor= db.rawQuery("select * from users order by score desc limit 100", null);
 
         while(cursor.moveToNext()){
             RankingUser user = new RankingUser();
