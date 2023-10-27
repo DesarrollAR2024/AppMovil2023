@@ -34,7 +34,7 @@ public class terminosycondi extends AppCompatActivity {
         btnaceptar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(terminosycondi.this, Home.class);
+                Intent intent = new Intent(terminosycondi.this, Settings.class);
                 startActivity(intent);
             }
         });
