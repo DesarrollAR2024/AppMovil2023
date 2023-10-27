@@ -33,7 +33,7 @@
         android:layout_height="209dp"
         android:layout_marginTop="64dp"
         android:textAlignment="center"
-        android:text="Somos una empresa llamada DesarrollAR dedicada a realizar videojuegos como la trivia de GAMEATE para el entretenimiento y al alcance de todo el pùblico."
+        android:text="Somos una empresa llamada DesarrollAR, dedicada a realizar videojuegos como la trivia de GAMEMATE para el entretenimiento y al alcance de todo el pùblico."
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
