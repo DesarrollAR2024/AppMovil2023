@@ -16,7 +16,9 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".PlayScreen" />
         <activity android:name=".Ranking" />
+        <activity android:name=".Contacto" />
         <activity android:name=".Preguntas_Frecuentes" />
+        <activity android:name=".terminosycondi" />
         <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

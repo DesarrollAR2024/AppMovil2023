@@ -33,25 +33,25 @@ public class MainActivity extends AppCompatActivity {
                 String repass = repassword.getText().toString();
 
                 if(user.equals("")||pass.equals("")||repass.equals(""))
-                    Toast.makeText(MainActivity.this, "Please enter all the fields", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Por favor , completa todos los campos", Toast.LENGTH_SHORT).show();
                 else{
                     if(pass.equals(repass)){
                         Boolean checkuser = DB.checkusername(user);
                         if(checkuser==false){
                             Boolean insert = DB.insertData(user, pass);
                             if(insert==true){
-                                Toast.makeText(MainActivity.this, "Registered successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(MainActivity.this, "Registrado con Exito", Toast.LENGTH_SHORT).show();
                                 Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                                 startActivity(intent);
                             }else{
-                                Toast.makeText(MainActivity.this, "Registration failed", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(MainActivity.this, "El Registro a fallado", Toast.LENGTH_SHORT).show();
                             }
                         }
                         else{
                             Toast.makeText(MainActivity.this, "User already exists! please sign in", Toast.LENGTH_SHORT).show();
                         }
                     }else{
-                        Toast.makeText(MainActivity.this, "Passwords not matching", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Las Contrasenas no coinciden", Toast.LENGTH_SHORT).show();
                     }
                 } }
         });

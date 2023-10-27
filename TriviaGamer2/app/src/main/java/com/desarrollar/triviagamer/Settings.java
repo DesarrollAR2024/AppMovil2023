@@ -23,6 +23,11 @@ public class Settings extends AppCompatActivity {
 
     Button Pfrecuentes;
 
+    Button Tcondiciones;
+
+    Button Contact;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +42,29 @@ public class Settings extends AppCompatActivity {
                         startActivity(i);
                     }
                 });
+
+
+        Tcondiciones = (Button) findViewById(R.id.Tcondiciones);
+
+        Tcondiciones.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent( Settings.this , terminosycondi.class);
+                startActivity(i);
+            }
+        });
+
+
+
+        Contact = (Button) findViewById(R.id.contact);
+
+        Contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent( Settings.this , Contacto.class);
+                startActivity(i);
+            }
+        });
 
         mContext = Settings.this;
         AppController.currentActivity = this;
