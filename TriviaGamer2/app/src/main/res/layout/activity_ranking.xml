@@ -35,10 +35,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="133dp"
+        android:layout_height="100dp"
+        android:layout_weight="-10"
+        app:srcCompat="@drawable/flecha"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="606dp" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="157dp"
+        android:layout_height="122dp"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,18 +54,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rankingList"
-            android:layout_width="match_parent"
-            android:layout_height="507dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rankingList"
+        android:layout_width="match_parent"
+        android:layout_height="507dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="206dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
