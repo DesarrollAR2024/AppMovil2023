@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">TriviaQuizApp2</string>
-    <string name="btn_registro">Registro</string>
-    <string name="text_bienvenida" />
-    <string name="btn_login" />
-</resources>
