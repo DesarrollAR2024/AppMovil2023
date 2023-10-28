@@ -9,3 +9,13 @@ Este aplicación continua como complemento del proyecto realizado anteriormente:
 
 Documento Drive: https://drive.google.com/drive/folders/1JYB0llblNcfEU1isziR_Rlo3z_-pmvPY
 
+
+## Autores ✒️
+
+* **Ayala, Déborat** - [Deboratayala](https://github.com/Deboratayala)  
+* **Devia, Triana** - [TrianaDevia](https://github.com/TrianaDevia)
+* **Ortiz, Jesica** - [jesicaortiz](https://github.com/jesicaortiz)
+* **Pedraza, Matías** - [matiasp23](https://github.com/matiasp23)
+* **Pigni, Karen** -  [Karen-Pigni](https://github.com/Karen-Pigni)
+* **Pinto Villegas, Eduardo** - [EduRePiN](https://github.com/EduRePiN)
+* **Rojas, Marcelo** - [PsicoDevil](https://github.com/PsicoDevil)
