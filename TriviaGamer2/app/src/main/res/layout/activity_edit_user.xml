@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditUserActivity">
+
+    <EditText
+        android:id="@+id/userIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="60dp"
+        android:hint="ID del Usuario"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginLeft="50sp"
+        android:text="Buscar Usuario"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:textSize="20sp"
+        android:text="Nombre de Usuario: " />
+
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textSize="20sp"
+        android:text="Contraseña: " />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:textSize="20sp"
+        android:text="Puntaje: " />
+
+    <EditText
+        android:id="@+id/newUsernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Nuevo Nombre de Usuario" />
+
+    <EditText
+        android:id="@+id/newPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Nueva Contraseña" />
+
+    <EditText
+        android:id="@+id/newScoreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Nuevo Puntaje"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/modifyButton"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="30dp"
+        android:text="Modificar Usuario" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:text="Eliminar Usuario" />
+
+</LinearLayout>
