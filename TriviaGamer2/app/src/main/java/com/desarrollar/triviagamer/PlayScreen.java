@@ -73,24 +73,25 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
     @Override
     public void onBackPressed() {
 
+        super.onBackPressed();
         StopSound();
 
-        if (backPressedTime + 2000 > System.currentTimeMillis()){
+        if (backPressedTime + 2000 > System.currentTimeMillis()) {
 
             new AlertDialog.Builder(this)
                     .setTitle("Do you want to Exit")
-                    .setNegativeButton("No",null)
+                    .setNegativeButton("No", null)
                     .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
 
-                            setResult(RESULT_OK,new Intent().putExtra("Exit",true));
+                            setResult(RESULT_OK, new Intent().putExtra("Exit", true));
                             finish();
 
                         }
                     }).create().show();
 
-        }else {
+        } else {
 
             Toast.makeText(context, "Press Again to Exit", Toast.LENGTH_SHORT).show();
         }

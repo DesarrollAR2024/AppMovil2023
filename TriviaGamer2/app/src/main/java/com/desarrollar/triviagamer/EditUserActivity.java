@@ -1,15 +1,18 @@
 package com.desarrollar.triviagamer;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class EditUserActivity extends Activity {
 
+    Button buttonvolver;
     private int userId;
     private EditText userIdEditText;
     private EditText newUsernameEditText;
@@ -30,6 +33,15 @@ public class EditUserActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_user);
+
+        buttonvolver = findViewById(R.id.btnVolver);
+        buttonvolver.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EditUserActivity.this, AdminActivity.class);
+                startActivity(intent);
+            }
+        });
 
         userIdEditText = findViewById(R.id.userIdEditText);
         usernameTextView = findViewById(R.id.usernameTextView);
