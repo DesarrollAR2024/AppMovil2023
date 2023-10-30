@@ -10,14 +10,96 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 
 public class DBHelper extends SQLiteOpenHelper {
+
+    public String getUserPassword(int userId) {
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery("SELECT " + PASSWORD_COL + " FROM " + TABLE_NAME + " WHERE " + ID_COL + " = ?", new String[]{String.valueOf(userId)});
+        String password = null;
+        if (cursor.moveToFirst()) {
+            password = cursor.getString(0);
+        }
+        cursor.close();
+        return password;
+    }
+
+    public boolean deleteUser(int userId) {
+        SQLiteDatabase db = getWritableDatabase();
+        int rowsAffected = db.delete(TABLE_NAME, ID_COL + " = ?", new String[]{String.valueOf(userId)});
+        return rowsAffected > 0;
+    }
+
+    public boolean updateUserPassword(int userId, String newPassword) {
+        SQLiteDatabase db = getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(PASSWORD_COL, newPassword);
+        int rowsAffected = db.update(TABLE_NAME, values, ID_COL + " = ?", new String[]{String.valueOf(userId)});
+        return rowsAffected > 0;
+    }
+
+    // Setter para Nombre
+    public boolean updateUsername(int userId, String newUsername) {
+        SQLiteDatabase db = getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(NAME_COL, newUsername);
+        int rowsAffected = db.update(TABLE_NAME, values, ID_COL + " = ?", new String[]{String.valueOf(userId)});
+        return rowsAffected > 0;
+    }
+
+    // Setter para Puntaje
+    public boolean updateUserScore(int userId, int newScore) {
+        SQLiteDatabase db = getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(SCORE_COL, newScore);
+        int rowsAffected;
+        rowsAffected = db.update(TABLE_NAME, values, ID_COL + " = ?", new String[]{String.valueOf(userId)});
+        return rowsAffected > 0;
+    }
+
+    public int getUserId(String username) {
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery("SELECT " + ID_COL + " FROM " + TABLE_NAME + " WHERE " + NAME_COL + " = ?", new String[]{username});
+        int userId = -1;
+        if (cursor.moveToFirst()) {
+            userId = cursor.getInt(0);
+        }
+        cursor.close();
+        return userId;
+    }
+
+    // Getter para Nombre
+    public String getUsername(int userId) {
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery("SELECT " + NAME_COL + " FROM " + TABLE_NAME + " WHERE " + ID_COL + " = ?", new String[]{String.valueOf(userId)});
+        String username = null;
+        if (cursor.moveToFirst()) {
+            username = cursor.getString(0);
+        }
+        cursor.close();
+        return username;
+    }
+
+
+    // Getter para Puntaje
+    public int getUserScore(int userId) {
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery("SELECT " + SCORE_COL + " FROM " + TABLE_NAME + " WHERE " + ID_COL + " = ?", new String[]{String.valueOf(userId)});
+        int userScore = -1;
+        if (cursor.moveToFirst()) {
+            userScore = cursor.getInt(0);
+        }
+        cursor.close();
+        return userScore;
+    }
+
+
     public static final String DBNAME = "Login.db";
 
-    private static final int DB_VERSION = 10;
-    private static final String TABLE_NAME = "users";
-    private static final String ID_COL = "id";
-    private static final String NAME_COL = "username";
-    private static final String PASSWORD_COL = "password";
-    private static final String SCORE_COL = "score";
+    public static final int DB_VERSION = 10;
+    public static final String TABLE_NAME = "users";
+    public static final String ID_COL = "id";
+    public static final String NAME_COL = "username";
+    public static final String PASSWORD_COL = "password";
+    public static final String SCORE_COL = "score";
 
     public DBHelper(Context context) {
         super(context, "Login.db", null, DB_VERSION);
