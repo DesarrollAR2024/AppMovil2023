@@ -48,10 +48,10 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }
                         else{
-                            Toast.makeText(MainActivity.this, "User already exists! please sign in", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "El usuario ya existe! por favor inicie sesión", Toast.LENGTH_SHORT).show();
                         }
                     }else{
-                        Toast.makeText(MainActivity.this, "Las Contrasenas no coinciden", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Las Contraseñas no coinciden", Toast.LENGTH_SHORT).show();
                     }
                 } }
         });

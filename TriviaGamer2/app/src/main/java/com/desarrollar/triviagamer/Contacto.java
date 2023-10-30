@@ -23,14 +23,14 @@ public class Contacto extends AppCompatActivity {
         btnenvcontacto.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Contacto.this, Home.class);
+                Intent intent = new Intent(Contacto.this, Settings.class);
                 startActivity(intent);
             }
         });
         volverayuda.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Contacto.this, ayuda.class);
+                Intent intent = new Intent(Contacto.this, Settings.class);
                 startActivity(intent);
             }
         });
