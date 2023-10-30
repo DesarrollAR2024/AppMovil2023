@@ -7,6 +7,20 @@ La Aplicación de Trivia de Preguntas y Respuestas de Videojuegos es una herrami
 
 Este aplicación continua como complemento del proyecto realizado anteriormente: https://github.com/TrianaDevia/Game-Mate-Modulo-Programador-Web-2023
 
+## Diseño
+
+<image src="/Capturas/1.png" alt="login">
+<image src="/Capturas/2.png" alt="login">
+<image src="/Capturas/3.png" alt="login">
+<image src="/Capturas/4.png" alt="login">
+<image src="/Capturas/5.png" alt="login">
+<image src="/Capturas/6.png" alt="login">
+<image src="/Capturas/7.png" alt="login">
+<image src="/Capturas/8.png" alt="login">
+<image src="/Capturas/9.png" alt="login">
+<image src="/Capturas/10.png" alt="login">
+<image src="/Capturas/11.png" alt="login">
+
 Documento Drive: https://drive.google.com/drive/folders/1JYB0llblNcfEU1isziR_Rlo3z_-pmvPY
 
 
