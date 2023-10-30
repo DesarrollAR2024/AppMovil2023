@@ -132,9 +132,9 @@ public class EditUserActivity extends Activity {
         int userId = Integer.parseInt(userIdEditText.getText().toString());
 
         if (dbHelper.deleteUser(userId)) {
-            // Usuario eliminado exitosamente
+            showToast("Usuario eliminado exitosamente");
         } else {
-            // Error al eliminar el usuario
+            showToast("No fue posible eliminar el usario");
         }
     }
 
